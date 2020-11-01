@@ -273,5 +273,49 @@ a = array('i',[100,1,3,9,-8])
 #         maximum=a[i]
 #
 # print(sum-maximum,sum-minimum)
+#
+# def birthdayCakeCandles(candles):
+#     highest = candles[0]
+#     count = 0
+#     lencandles=len(candles)
+#
+#     for i in range(lencandles):
+#
+#         if highest < candles[i]:
+#             highest = candles[i]
+#
+#
+#     for i in range(lencandles):
+#         if highest == candles[i]:
+#             count += 1
+#
+#     return count
+#
+# candles=array('i',[3,1,3,3,7,7,7,9])
+#
+# print(birthdayCakeCandles(candles))
+#
+# str3="12:40:22AM"
+#
+# if(str3[8:11]=='AM'and str3[0:2]=='12'):
+#
+#     newstr = str3[2:8]
+#     print('00'+newstr)
+#
+# elif(str3[8:11]=='AM'and str3[0:2]!='12'):
+#
+#     print(str3[0:8])
+#
+# elif(str3[8:11]=='PM'and str3[0:2]=='12'):
+#
+#     print(str3[0:8])
+#
+# else:
+#     newstr =str3[2:8]
+#     num=int(str3[0:2]) + 12
+#     str1=str(num)
+#     print(str1+newstr)
+
+
 
 
