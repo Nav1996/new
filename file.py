@@ -315,6 +315,57 @@ a = array('i',[100,1,3,9,-8])
 #     num=int(str3[0:2]) + 12
 #     str1=str(num)
 #     print(str1+newstr)
+#
+# class square:
+#
+#     def __init__(self,side):
+#         self._side=side
+#
+#     @property
+#     def side(self):
+#         return self._side
+#
+#     @side.setter
+#     def side(self,value):
+#         if value>=0:
+#             self._side=value
+#         else:
+#             print("error")
+#
+#     @property
+#     def area(self):
+#         return self._side**2
+#
+#     @classmethod
+#     def unit_square(cls):
+#         return cls(1)
+#
+# s=square(5)
+# print(s.side)
+# print(s.area)
+#
+#
+# """sinsgleton class"""
+#
+# import functools
+# def singelton(cls):
+#
+#     @functools.wraps(cls)
+#     def wrapper(*args,**kwargs):
+#         if not wrapper.instance:
+#             wrapper.instace=cls(*args,**kwargs)
+#         return wrapper.instance
+#     wrapper.instance=None
+#     return wrapper
+# @singelton
+# class one:
+#     pass
+#
+# first=one()
+# second=one()
+#
+# print(first is second)
+
 
 
 

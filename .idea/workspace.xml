@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="318" selection-start-line="318" selection-end-line="318" />
+            <state relative-caret-position="232">
+              <caret line="366" column="24" lean-forward="true" selection-start-line="366" selection-start-column="24" selection-end-line="366" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -275,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        <state relative-caret-position="232">
+          <caret line="366" column="24" lean-forward="true" selection-start-line="366" selection-start-column="24" selection-end-line="366" selection-end-column="24" />
         </state>
       </provider>
     </entry>
