@@ -410,69 +410,90 @@ a = array('i',[100,1,3,9,-8])
 # d=lambda x,y:3*x+4*y
 #
 # print(d(4,7))
-"""check password strength"""
-password="1z2!"
+# """check password strength"""
+# password="1z2!"
+#
+# def minimumNumber(password):
+#     numbers = "0123456789"
+#     lower_case = "abcdefghijklmnopqrstuvwxyz"
+#     upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+#     special_characters = "!@#$%^&*()-+"
+#
+#     ncount = 0
+#     lcount = 0
+#     ucount = 0
+#     scount = 0
+#     lenp = len(password)
+#     reqnumber=0
+#
+#     if lenp <= 4:
+#         return 6 - lenp
+#
+#     else:
+#
+#         for i in range(0,lenp):
+#
+#             for j in range(0,10):
+#
+#                 if password[i] == numbers[j]:
+#                     ncount += 1
+#
+#             for q in range(0,26):
+#                 if password[i]==lower_case[q]:
+#                     lcount+=1
+#
+#                 if password[i]==upper_case[q]:
+#                     ucount+=1
+#
+#             for r in range(0,12):
+#
+#                 if password[i]==special_characters[r]:
+#                     scount+=1
+#
+#
+#         if(ncount!=0 and lcount!=0 and ucount!=0 and scount!=0 and lenp<=6):
+#
+#             reqnumber =6-lenp
+#
+#         if (ncount != 0 and lcount != 0 and ucount != 0 and scount != 0 and lenp > 6):
+#
+#             reqnumber =0
+#
+#         if(ncount==0):
+#             reqnumber+=1
+#         if (lcount == 0):
+#             reqnumber += 1
+#         if (ucount == 0):
+#             reqnumber += 1
+#         if (scount == 0):
+#             reqnumber += 1
+#
+#         if lenp+reqnumber<6:
+#             reqnumber=6-reqnumber+lenp
+#
+#     return reqnumber
+#
+#
+# print(minimumNumber(password))
+#
+# """Dividors"""
+#
+# def findDigits(n):
+#
+#     digits=[int(x) for x in str(n)]
+#     count=0
+#
+#     for i in range(len(digits)):
+#
+#         if n%digits[i]==0:
+#             count+=1
+#
+#     print(count)
+#
+# findDigits(1426)
 
-def minimumNumber(password):
-    numbers = "0123456789"
-    lower_case = "abcdefghijklmnopqrstuvwxyz"
-    upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    special_characters = "!@#$%^&*()-+"
-
-    ncount = 0
-    lcount = 0
-    ucount = 0
-    scount = 0
-    lenp = len(password)
-    reqnumber=0
-
-    if lenp <= 4:
-        return 6 - lenp
-
-    else:
-
-        for i in range(0,lenp):
-
-            for j in range(0,10):
-
-                if password[i] == numbers[j]:
-                    ncount += 1
-
-            for q in range(0,26):
-                if password[i]==lower_case[q]:
-                    lcount+=1
-
-                if password[i]==upper_case[q]:
-                    ucount+=1
-
-            for r in range(0,12):
-
-                if password[i]==special_characters[r]:
-                    scount+=1
-
-
-        if(ncount!=0 and lcount!=0 and ucount!=0 and scount!=0 and lenp<=6):
-
-            reqnumber =6-lenp
-
-        if (ncount != 0 and lcount != 0 and ucount != 0 and scount != 0 and lenp > 6):
-
-            reqnumber =0
-
-        if(ncount==0):
-            reqnumber+=1
-        if (lcount == 0):
-            reqnumber += 1
-        if (ucount == 0):
-            reqnumber += 1
-        if (scount == 0):
-            reqnumber += 1
-
-        if lenp+reqnumber<6:
-            reqnumber=6-reqnumber+lenp
-
-    return reqnumber
-
-
-print(minimumNumber(password))
+# n=int(input())
+#
+# for i in range(1,n+1):
+#     print(i, end="")
 
