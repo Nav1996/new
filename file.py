@@ -496,4 +496,142 @@ a = array('i',[100,1,3,9,-8])
 #
 # for i in range(1,n+1):
 #     print(i, end="")
+#
+# def fact(n):
+#
+#     if(n==0):
+#         return 1
+#
+#     # a[] = n*fact(n-1)
+#
+#
+#     return a
+#
+# result=fact(10)
+# print(result)
+#
+# a=8683849840*546364756
+# print(a)
 
+# """filter with map"""
+#
+# c=map(lambda x:x+x,filter(lambda x:(x>=4),[5,65,3,13,1,1]))
+#
+# print(list(c))
+
+# """map within filter"""
+#
+# d = filter(lambda x: (x >= 10),map(lambda x : (x-4),[9,6,7,5,1,99,78]))
+#
+# print(list(d))
+#
+# """reduce within map and filter"""
+#
+# from functools import reduce
+#
+# d = reduce(lambda x,y:(x+y),filter(lambda x: (x >= 10),map(lambda x : (x-4),[9,6,7,5,1,99,78])))
+#
+# print(d)
+
+# def migratoryBirds(arr):
+#     maxcount = 0
+#     num = arr[0]
+#
+#     for i in arr:
+#
+#         freq = arr.count(i)
+#
+#         if freq > maxcount:
+#             maxcount = freq
+#             num = i
+#
+#     return num
+#
+# arr=[1,3,4]
+
+# print(migratoryBirds(arr))
+
+#
+# def bonAppetit(bill, k, b):
+#
+#     sumbill=0
+#     a=0
+#
+#     for i in range(len(bill)):
+#
+#         sumbill+=bill[i]
+#
+#     sumbill-=bill[k]
+#
+#     if(sumbill-b==0):
+#         return "Bon Appetit"
+#
+#     else:
+#         a=b-
+#         return a
+#
+# bill=[3,10,2,9]
+#
+# bonAppetit(bill,1,12)
+
+# print(int(3/6))
+
+from collections import Counter
+
+# def sockMerchant(ar):
+    #
+    # paircount = 0
+    # sockcount=0
+    # uniquelist=[]
+    #
+    # def unique(ar):
+    #
+    #     for x in ar:
+    #
+    #         if x not in uniquelist:
+    #             uniquelist.append(x)
+    #
+    # unique(ar)
+    #
+    # for i in uniquelist:
+    #
+    #     sockcount=ar.count(i)
+    #
+    #     if sockcount>=2:
+    #         paircount+=int(sockcount/2)
+    #
+    #
+    # return paircount
+#
+# ar=[3,3,4,5,4,6,7,8,9,0]
+#
+# print(sockMerchant(ar))
+
+
+# from array import *
+#
+# arr = array('i',[])
+#
+# n=int(input("Enter number of elements: "))
+#
+# for i in range(n):
+#
+#     x=int(input("Enter the next value"))
+#     arr.append(x)
+#
+# print(arr)
+#
+# to_beSearched=int(input("Enter the number for search"))
+#
+# for i in range(n):
+#     if(to_beSearched==arr[i]):
+#         print("value available in: ",i)
+
+class computer:
+
+    def config(self):
+        print("i5 with 16gb ram")
+
+com1 = computer()
+
+com1.config()
