@@ -626,12 +626,82 @@ from collections import Counter
 # for i in range(n):
 #     if(to_beSearched==arr[i]):
 #         print("value available in: ",i)
+#
+# class computer:
+#
+#     def __init__(self,cpu,ram):
+#         self.cpu=cpu
+#         self.ram=ram
+#
+#     def config(self):
+#         print("i5 with 16gb ram",self.cpu,self.ram)
+#
+# com1 = computer('i5',8)
+#
+# com1.config()
 
-class computer:
+# """constructor"""
+#
+# class Computer:
+#
+#     def __init__(self):
+#         self.name='naveen'
+#         self.age=38
+#
+#     def update(self):
+#         self.age=30
+#
+#
+# c1=Computer()
+# c2=Computer()
+#
+# print(id(c1),id(c2))
+# print(c1.name)
+# print(c2.name)
+# c1.name='nivantha'
+# print(c1.name)
+# print(c2.name)
 
-    def config(self):
-        print("i5 with 16gb ram")
+# class car:
+#
+#     wheels=4
+#
+#     def __init__(self):
+#         self.mil
+#         self.name
 
-com1 = computer()
+class Student:
 
-com1.config()
+    school='naveen'
+
+    def __init__(self,m1,m3,m4):
+
+        self.m1=m1
+        self.m3=m3
+        self.m4=m4
+
+    def avg(self):
+        return (self.m1+self.m3+self.m4)/3
+
+    def get_m1(self):
+        return self.m1
+    def set_m1(self,value):
+        self.m1=value
+
+    @classmethod
+    def info(cls):
+        return cls.school
+
+    @staticmethod
+    def new():
+        print("new static function")
+
+s1 = Student(13,4,3)
+s3 = Student(13,4,3)
+s4 = Student(13,40,34)
+
+print(s1.avg())
+print(s3.avg())
+print(s4.avg())
+print(Student.info())
+s1.new()
