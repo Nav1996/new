@@ -669,39 +669,49 @@ from collections import Counter
 #     def __init__(self):
 #         self.mil
 #         self.name
+#
+# class Student:
+#
+#     school='naveen'
+#
+#     def __init__(self,m1,m3,m4):
+#
+#         self.m1=m1
+#         self.m3=m3
+#         self.m4=m4
+#
+#     def avg(self):
+#         return (self.m1+self.m3+self.m4)/3
+#
+#     def get_m1(self):
+#         return self.m1
+#     def set_m1(self,value):
+#         self.m1=value
+#
+#     @classmethod
+#     def info(cls):
+#         return cls.school
+#
+#     @staticmethod
+#     def new():
+#         print("new static function")
+#
+# s1 = Student(13,4,3)
+# s3 = Student(13,4,3)
+# s4 = Student(13,40,34)
+#
+# print(s1.avg())
+# print(s3.avg())
+# print(s4.avg())
+# print(Student.info())
+# s1.new()
+"""splitting a string """
+a = "this is a string"
+a = a.split(" ") # a is converted to a list of strings.
+print(a)
 
-class Student:
+"""joiniing a string"""
+a = "-".join(a)
+print(a)
 
-    school='naveen'
 
-    def __init__(self,m1,m3,m4):
-
-        self.m1=m1
-        self.m3=m3
-        self.m4=m4
-
-    def avg(self):
-        return (self.m1+self.m3+self.m4)/3
-
-    def get_m1(self):
-        return self.m1
-    def set_m1(self,value):
-        self.m1=value
-
-    @classmethod
-    def info(cls):
-        return cls.school
-
-    @staticmethod
-    def new():
-        print("new static function")
-
-s1 = Student(13,4,3)
-s3 = Student(13,4,3)
-s4 = Student(13,40,34)
-
-print(s1.avg())
-print(s3.avg())
-print(s4.avg())
-print(Student.info())
-s1.new()
