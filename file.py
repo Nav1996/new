@@ -705,13 +705,33 @@ from collections import Counter
 # print(s4.avg())
 # print(Student.info())
 # s1.new()
-"""splitting a string """
-a = "this is a string"
-a = a.split(" ") # a is converted to a list of strings.
-print(a)
+# """splitting a string """
+# a = "this is a string"
+# a = a.split(" ") # a is converted to a list of strings.
+# print(a)
+#
+# """joiniing a string"""
+# a = "-".join(a)
+# print(a)
 
-"""joiniing a string"""
-a = "-".join(a)
-print(a)
+"""OOP Concepts"""
+
+class Car():
+
+    def __init__(self,modelname,yearm,price):
+        self.modelname=modelname
+        self.yearm=yearm
+        self.price=price
+
+    def price_inc(self):
+        self.price=int(self.price*1.15)
+
+honda=Car('toyota',1034,1000000)
+nissan=Car('nissan',8989,8853954)
+
+
+print(honda.price)
+honda.price_inc()
+print(honda.price)
 
 
