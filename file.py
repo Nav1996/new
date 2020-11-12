@@ -735,3 +735,29 @@ honda.price_inc()
 print(honda.price)
 
 
+def getMoneySpent(keyboards, drives, b):
+    sum = 0
+    maxsum = -1
+
+    for i in range(len(keyboards)):
+
+        for j in range(len(drives)):
+
+            sum = keyboards[i] + drives[j]
+            if sum > maxsum and sum <= b:
+                maxsum = sum
+
+    return maxsum
+
+"""Absauloute value == abs()"""
+
+
+def catAndMouse(x, y, z):
+    if (abs(y - z) > abs(x - z)):
+        return "Cat A"
+
+    elif (abs(x - z) > abs(y - z)):
+        return "Cat B"
+
+    else:
+        return "Mouse C"
