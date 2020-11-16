@@ -715,7 +715,7 @@ from collections import Counter
 # print(a)
 
 """OOP Concepts"""
-
+#
 class Car():
 
     def __init__(self,modelname,yearm,price):
@@ -725,39 +725,42 @@ class Car():
 
     def price_inc(self):
         self.price=int(self.price*1.15)
+#
+# honda=Car('toyota',1034,1000000)
+# nissan=Car('nissan',8989,8853954)
+#
+#
+# print(honda.price)
+# honda.price_inc()
+# print(honda.price)
+#
+#
+# def getMoneySpent(keyboards, drives, b):
+#     sum = 0
+#     maxsum = -1
+#
+#     for i in range(len(keyboards)):
+#
+#         for j in range(len(drives)):
+#
+#             sum = keyboards[i] + drives[j]
+#             if sum > maxsum and sum <= b:
+#                 maxsum = sum
+#
+#     return maxsum
+#
+# """Absauloute value == abs()"""
+#
+#
+# def catAndMouse(x, y, z):
+#     if (abs(y - z) > abs(x - z)):
+#         return "Cat A"
+#
+#     elif (abs(x - z) > abs(y - z)):
+#         return "Cat B"
+#
+#     else:
+#         return "Mouse C"
 
-honda=Car('toyota',1034,1000000)
-nissan=Car('nissan',8989,8853954)
-
-
-print(honda.price)
-honda.price_inc()
-print(honda.price)
-
-
-def getMoneySpent(keyboards, drives, b):
-    sum = 0
-    maxsum = -1
-
-    for i in range(len(keyboards)):
-
-        for j in range(len(drives)):
-
-            sum = keyboards[i] + drives[j]
-            if sum > maxsum and sum <= b:
-                maxsum = sum
-
-    return maxsum
-
-"""Absauloute value == abs()"""
-
-
-def catAndMouse(x, y, z):
-    if (abs(y - z) > abs(x - z)):
-        return "Cat A"
-
-    elif (abs(x - z) > abs(y - z)):
-        return "Cat B"
-
-    else:
-        return "Mouse C"
+class SuperClass(Car):
+    pass
