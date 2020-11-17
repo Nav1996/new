@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91301b82-0b2c-4e05-8d9d-161fcaa87c8b" name="Default Changelist" comment="" />
+    <list default="true" id="91301b82-0b2c-4e05-8d9d-161fcaa87c8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
       <recent name="C:\Users\Asus\PycharmProjects\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.new">
+  <component name="RunManager" selected="Python.file">
     <configuration name="file" type="PythonConfigurationType" factoryName="Python">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +99,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.file" />
-      <item itemvalue="Python.mycode" />
       <item itemvalue="Python.new" />
+      <item itemvalue="Python.mycode" />
     </list>
     <recent_temporary>
       <list>
